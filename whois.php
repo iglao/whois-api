@@ -1,5 +1,5 @@
 <?PHP
-$url = "https://api.iglao.com/v1/domain/available?key=DOMAIN.COM";
+$url = "https://api.iglao.com/v1/domain/whois?key=DOMAIN.COM";
 $curl = curl_init($url);
 
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
